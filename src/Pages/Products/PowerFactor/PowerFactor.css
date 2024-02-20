@@ -1,0 +1,86 @@
+.automatic-power-factor-control-panel-page-banner-container {
+  width: 100%;
+  background-image: url(../../../Assets/mke-header-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 4rem;
+}
+
+.automatic-power-factor-control-panel-page-banner-container h2 {
+  width: 500px;
+  border: 2px solid #80020b;
+  border-radius: 10px;
+  margin: 0 23rem;
+  color: #fff;
+  font-family: "raleway", sans-serif;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+.automatic-power-factor-control-panel-page-banner-container-next-title {
+  color: #fff;
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 300;
+  padding: 2rem;
+}
+
+.automatic-power-factor-control-panel-page-sec1-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-power-factor-control-panel-page-sec1-container h2 {
+  padding: 1rem 0;
+  font-family: "raleway", sans-serif;
+  color: #000fff;
+}
+
+.automatic-power-factor-control-panel-page-sec1-container p {
+  font-family: "poppins";
+  text-align: justify;
+}
+
+.automatic-power-factor-control-panel-page-sec2-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-power-factor-control-panel-page-sec2-container h2 {
+  text-align: center;
+  padding: 1rem 0;
+  font-family: "raleway", sans-serif;
+  color: #000fff;
+}
+
+.apfc-image {
+  display: flex;
+  gap: 6rem;
+}
+
+.single-phase-image {
+  margin: 0 8rem;
+}
+
+.single-phase-image h3 {
+  padding: 0 4rem;
+  font-family: "raleway";
+  color: #000fff;
+}
+
+.automatic-power-factor-control-panel-page-sec3-container{
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-power-factor-control-panel-page-sec3-container h2{
+  padding: 1rem 0;
+  font-family: "raleway",sans-serif;
+  color: #000fff;
+}
+
+.automatic-power-factor-control-panel-page-sec3-container p{
+  padding: 1rem 0;
+  text-align: justify;
+  font-family: "poppins";
+}

@@ -1,0 +1,152 @@
+.automatic-voltage-stabilizer-page-banner-container {
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../../../Assets/mke-header-3.jpg);
+  padding: 4rem;
+  text-align: center;
+}
+
+.automatic-voltage-stabilizer-page-banner-container h2 {
+  width: 360px;
+  border: 2px solid #80020b;
+  margin: 0 27rem;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.automatic-voltage-stabilizer-page-container-next-title {
+  /* margin: 0 3rem; */
+  color: #fff;
+  font-size: 16px;
+  font-family: "poppins";
+  padding: 2rem;
+  font-weight: 300;
+}
+
+.automatic-voltage-stabilizer-page-sec1-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-voltage-stabilizer-page-sec1-container h2 {
+  padding: 1rem 0;
+  color: #000fff;
+  font-family: "raleway", sans-serif;
+}
+
+.automatic-voltage-stabilizer-page-sec1-container p {
+  text-align: justify;
+  font-family: "poppins";
+}
+
+.automatic-voltage-stabilizer-page-sec2-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-voltage-stabilizer-page-sec2-container h2 {
+  padding: 1rem;
+  font-family: "raleway", sans-serif;
+  text-align: center;
+  color: #000fff;
+}
+
+.voltage-stabilizer-products {
+  display: flex;
+  gap: 2rem;
+}
+
+.voltage-stabilizer-products img {
+  width: 400px;
+}
+
+.rightside-image h3 {
+  text-align: center;
+  color: #000fff;
+  font-family: "raleway", sans-serif;
+}
+
+.rightside-image h4 {
+  font-family: "poppins";
+  color: #000fff;
+}
+
+.rightside-image img {
+  /* height: 10vh; */
+  width: 660px;
+}
+
+.automatic-voltage-stabilizer-page-sec3-container,
+.automatic-voltage-stabilizer-page-sec4-container,
+.automatic-voltage-stabilizer-page-sec5-container,
+.automatic-voltage-stabilizer-page-sec6-container {
+  width: 1100px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.refrigrator-container,
+.washing-machine-container,
+.ac-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.refrigrator-container h3,
+.washing-machine-container h3,
+.ac-container h3 {
+  text-align: center;
+  color: #000fff;
+  font-family: "raleway", sans-serif;
+}
+
+.refrigrator-container h4,
+.washing-machine-container h4,
+.ac-container h4 {
+  font-family: "poppins";
+  color: #000fff;
+}
+
+.refrigrator-container img {
+  width: 600px;
+  padding: 1rem 0;
+}
+
+.washing-machine-container img {
+  width: 500px;
+}
+.rightside-image .img2 {
+  width: 400px;
+}
+
+.washing-machine-container .img3 {
+  width: 560px;
+  padding: 1rem 0;
+}
+
+.ac-container img {
+  width: 600px;
+  padding: 1rem 0;
+}
+
+.ac-container .img4 {
+  width: 400px;
+}
+
+.table-image {
+  width: 1100px;
+  background-color: red;
+}
+
+.leftside-table-image .img1 {
+  width: 534px;
+  padding: 1rem 0;
+}
+
+.rightside-table-image .img2 {
+  width: 534px;
+  padding: 1rem 0;
+}

@@ -1,0 +1,367 @@
+.automatic-phase-changeover-page-banner-container {
+  width: 100%;
+  background-image: url(../../../Assets/mke-header-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 4rem;
+  text-align: center;
+}
+.automatic-phase-changeover-page-banner-container h2 {
+  width: 340px;
+  border: 2px solid #80020b;
+  margin: 0 28rem;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.automatic-phase-changeover-page-container-next-title {
+  margin: 0 3rem;
+  color: #fff;
+  font-size: 16px;
+  font-family: "poppins";
+  padding: 2rem;
+  padding-left: 2rem;
+  font-weight: 300;
+}
+
+.automatic-phase-changeover-page-sec1-container {
+  width: 1100px;
+  margin: auto;
+  padding: 1rem 0;
+  display: flex;
+}
+
+.sec1-apc-contianer h2 {
+  font-family: "Raleway", sans-serif;
+  color: blue;
+  padding: 1rem 0;
+}
+
+.sec1-apc-contianer {
+  width: 700px;
+  text-align: justify;
+}
+
+.sec1-apc-img {
+  margin: 0 6rem;
+}
+
+.automatic-phase-changeover-page-sec2-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-phase-changeover-page-sec2-container h2 {
+  color: blue;
+  font-family: "raleway", sans-serif;
+  padding: 1rem 0;
+}
+
+.automatic-phase-changeover-page-sec2-container p {
+  padding: 0.7rem 0;
+  display: flex;
+}
+
+.para{
+  margin: 0 0.3rem;
+}
+.automatic-phase-changeover-page-sec3-container {
+  width: 1100px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.automatic-phase-changeover-page-sec3-container h1 {
+  font-family: "raleway", sans-serif;
+  color: blue;
+  padding: 1rem 0;
+ 
+}
+
+.automatic-phase-changeover-page-sec3-container .img {
+  margin-left: 1.3rem;
+  box-shadow: rgb(247, 240, 240) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.apc-containers {
+  /* display: flex; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apc-container-regular-effect {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 700ms ease-in-out;
+  display: flex;
+  margin: 0 1rem;
+}
+
+.apc-container-regular-images .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.apc-container-regular-hover {
+  display: flex;
+  position: absolute;
+  top: 700px;
+  background-color: rgba(245, 28, 12, 0.478);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.apc-container-regular-title {
+  color: #000;
+  font-family: "poppins";
+  font-size: 20px;
+}
+
+.apc-container-regular-title:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.apc-container-regular-effect:hover .apc-container-regular-hover {
+  top: 0;
+  transition: all 700ms ease-in-out;
+  animation: bottomToTop 700ms ease-in-out;
+}
+
+@keyframes bottomToTop {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+.apc-container-vertical-effect {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 700ms ease-in-out;
+  display: flex;
+  margin: 0 1rem;
+}
+
+.apc-container-vertical-images .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.apc-container-vertical-hover {
+  display: flex;
+  position: absolute;
+  top: 700px;
+  background-color: rgba(245, 28, 12, 0.478);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.apc-container-vertical-title {
+  color: #000;
+  font-family: "poppins";
+  font-size: 20px;
+}
+
+.apc-container-vertical-title:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.apc-container-vertical-effect:hover .apc-container-vertical-hover {
+  top: 0;
+  transition: all 700ms ease-in-out;
+  animation: bottomToTop 700ms ease-in-out;
+}
+
+@keyframes bottomToTop {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+.apc-container-harizontal-effect {
+  width: 370px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 700ms ease-in-out;
+  display: flex;
+  margin: 0 1rem;
+}
+
+.apc-container-harizontal-images .img {
+  width: 50%;
+  height: 50%;
+  /* object-fit: cover; */
+}
+
+.apc-container-harizontal-hover {
+  display: flex;
+  position: absolute;
+  top: 700px;
+  background-color: rgba(245, 28, 12, 0.478);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.apc-container-harizontal-title {
+  color: #000;
+  font-family: "poppins";
+  font-size: 20px;
+}
+
+.apc-container-harizontal-title:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.apc-container-harizontal-effect:hover .apc-container-harizontal-hover {
+  top: 0;
+  transition: all 700ms ease-in-out;
+  animation: bottomToTop 700ms ease-in-out;
+}
+
+@keyframes bottomToTop {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+.apc-container-eb1gen1-effect {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 700ms ease-in-out;
+  display: flex;
+  margin: 0 1rem;
+}
+
+.apc-container-eb1gen1-images .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.apc-container-eb1gen1-hover {
+  display: flex;
+  position: absolute;
+  top: 700px;
+  background-color: rgba(245, 28, 12, 0.478);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.apc-container-eb1gen1-title {
+  color: #000;
+  font-family: "poppins";
+  font-size: 20px;
+}
+
+.apc-container-eb1gen1-title:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.apc-container-eb1gen1-effect:hover .apc-container-eb1gen1-hover {
+  top: 0;
+  transition: all 700ms ease-in-out;
+  animation: bottomToTop 700ms ease-in-out;
+}
+
+@keyframes bottomToTop {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.automatic-phase-changeover-page-sec3-container h2 {
+  text-align: center;
+  font-weight: 400;
+  margin: 0 1rem;
+  width: 230px;
+}
+
+.apc-containers-title {
+  display: flex;
+  gap: 1rem;
+}
+
+.automatic-phase-changeover-page-sec4-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.apc-top h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.apc-top span {
+  font-size: 2rem;
+}
+
+.apc-top p {
+  font-size: 1rem;
+  font-family: "poppins";
+}
+
+.automatic-phase-changeover-page-sec5-container {
+  width: 1100px;
+  background-color: red;
+  margin: auto;
+  padding: 1rem 0;
+  display: flex;
+  gap: 11rem;
+}
+
+.sec5-vertical-harizontal-table-container h2 {
+  display: flex;
+}
+.automatic-phase-changeover-page-sec5-container h2 {
+  font-weight: 400;
+  display: flex;
+}
+
+.sec5-vertical-table-left-container,
+.sec5-harizontal-table-left-container {
+  display: flex;
+}
+.automatic-phase-changeover-page-sec5-container img {
+  display: flex;
+}
+
+.table1-img {
+  padding: 0 14rem;
+}
+.table2-img {
+  padding: 0 6rem;
+}

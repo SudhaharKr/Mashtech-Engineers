@@ -1,0 +1,146 @@
+.automatic-water-level-controller-page-banner-container {
+  width: 100%;
+  background-image: url(../../../Assets//mke-header-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.automatic-water-level-controller-page-banner-container h2 {
+  width: 400px;
+  border: 2px solid #80020b;
+  margin: 0 30rem;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.automatic-water-level-controller-page-container-next-title {
+  color: #fff;
+  font-size: 16px;
+  font-family: "poppins";
+  padding: 2rem;
+  font-weight: 300;
+}
+
+.automatic-water-level-controller-page-container-next-title a::after {
+  width: 30px;
+  height: 40vh;
+  background-color: red;
+}
+
+.automatic-water-level-controller-page-sec1-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-water-level-controller-page-sec1-container h2 {
+  padding: 1rem 0;
+  color: #000fff;
+  font-family: "raleway", sans-serif;
+}
+
+.automatic-water-level-controller-page-sec1-container p {
+  font-family: "poppins";
+  text-align: justify;
+}
+
+.automatic-water-level-controller-page-sec2-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-water-level-controller-page-sec2-container h2 {
+  text-align: center;
+  padding: 1rem 0;
+  font-family: "raleway", sans-serif;
+  color: #000fff;
+}
+
+.wlc-types-image {
+  display: flex;
+  gap: 15.6rem;
+  padding: 1rem 0;
+}
+
+.b-series,
+.s-series,
+.f-series {
+  width: 200px;
+  display: flex;
+}
+
+.wlc-types-title {
+  width: 1138px;
+  display: flex;
+  gap: 15rem;
+  /* padding: 1rem; */
+}
+
+.wlc-types-title h3 {
+  padding: 1rem 0;
+  font-family: "raleway", sans-serif;
+  color: #000fff;
+}
+
+.automatic-water-level-controller-page-sec3-container {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 6rem;
+}
+
+.automatic-water-level-controller-page-sec3-container img {
+  padding: 1rem 0;
+}
+
+.rightside-container {
+  width: 800px;
+}
+
+.rightside-container h3,
+.leftside-container h3 {
+  padding: 1rem 0;
+  font-family: "raleway", sans-serif;
+  color: #000fff;
+  text-align: center;
+}
+
+.rightside-container h4,
+.leftside-container h4 {
+  font-family: "raleway", sans-serif;
+  color: #000fff;
+}
+
+.rightside-container p,
+.leftside-container p {
+  padding: 0.4rem 0;
+}
+
+.automatic-water-level-controller-page-sec4-container {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 6rem;
+  padding: 2rem 0;
+}
+
+.leftside-container {
+  width: 660px;
+}
+.automatic-water-level-controller-page-sec4-container h3 {
+  padding: 1rem 0;
+  font-family: "raleway", sans-serif;
+  color: #000fff;
+  text-align: center;
+}
+
+.automatic-water-level-controller-page-sec5-container{
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  padding: 2rem 0;
+  gap: 6rem;
+}

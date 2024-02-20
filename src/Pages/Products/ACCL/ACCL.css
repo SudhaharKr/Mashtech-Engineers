@@ -1,0 +1,217 @@
+.automatic-changeover-with-current-limiter-page-banner-container {
+  width: 100%;
+  background-image: url(../../../Assets/mke-header-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 4rem;
+  text-align: center;
+}
+.automatic-changeover-with-current-limiter-page-banner-container h2 {
+  width: 600px;
+  border: 2px solid #80020b;
+  margin: 0 20rem;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.automatic-changeover-with-current-limiter-page-container-next-title {
+  margin: 0 3rem;
+  color: #fff;
+  font-size: 16px;
+  font-family: "poppins";
+  padding: 2rem;
+  padding-left: 2rem;
+  font-weight: 300;
+}
+
+.automatic-changeover-with-current-limiter-page-sec1-container{
+  width: 1100px;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+  gap: 3rem;
+}
+
+.sec1-accl-contianer h2{
+  padding: 1rem 0;
+  color: blue;
+  font-family: "raleway",sans-serif;
+  /* font-weight: 400; */
+}
+
+.sec1-accl-contianer p{
+  text-align: justify;
+}
+
+.automatic-changeover-with-current-limiter-page-sec1-container img{
+  padding: 1rem 0;
+}
+
+.automatic-changeover-with-current-limiter-page-sec2-container{
+  width: 1100px;
+  margin: auto;
+}
+
+.automatic-changeover-with-current-limiter-page-sec2-container h2 {
+  color: blue;
+  font-family: "raleway", sans-serif;
+  padding: 1rem 0;
+}
+
+.automatic-changeover-with-current-limiter-page-sec2-container p {
+  padding: 0.7rem 0;
+}
+
+.automatic-changeover-with-current-limiter-page-sec3-container{
+  width: 1100px;
+  margin: auto;
+  
+}
+
+.automatic-changeover-with-current-limiter-page-sec3-container h2 {
+  color: blue;
+  font-family: "raleway", sans-serif;
+  padding: 1rem 0;
+}
+
+.automatic-changeover-with-current-limiter-page-sec3-container p {
+  padding: 0.7rem 0;
+}
+
+.automatic-changeover-with-current-limiter-page-sec4-container{
+  width: 1100px;
+  margin: auto;
+} 
+
+.automatic-changeover-with-current-limiter-page-sec4-container h2{
+  text-align: center;
+  color: blue;
+  font-family: "raleway", sans-serif;
+  padding: 1rem 0;
+}
+
+.automatic-phase-changeover-page-sec3-container .img {
+  margin-left: 1.3rem;
+  padding: 2rem;
+  box-shadow: rgb(247, 240, 240) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.accl-containers {
+  display: flex;
+  gap: 6rem;
+  padding-left: 13.8rem;
+ 
+}
+
+.accl-container-single-phase-effect {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 700ms ease-in-out;
+  display: flex;
+  margin: 0 1rem;
+}
+
+.accl-container-single-phase-images .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.accl-container-single-phase-hover {
+  display: flex;
+  position: absolute;
+  top: 700px;
+  background-color: rgba(245, 28, 12, 0.478);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.accl-container-single-phase-title {
+  color: #000 !important;
+  font-family: "poppins";
+  font-size: 20px;
+}
+
+.accl-container-single-phase-title:hover {
+  color: blue !important;
+  cursor: pointer;
+}
+
+.accl-container-single-phase-effect:hover .accl-container-single-phase-hover {
+  top: 0;
+  transition: all 700ms ease-in-out;
+  animation: bottomToTop 700ms ease-in-out;
+}
+
+@keyframes bottomToTop {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+.accl-container-three-phase-effect {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 700ms ease-in-out;
+  display: flex;
+  margin: 0 1rem;
+}
+
+.accl-container-three-phase-images .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.accl-container-three-phase-hover {
+  display: flex;
+  position: absolute;
+  top: 700px;
+  background-color: rgba(245, 28, 12, 0.478);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.accl-container-three-phase-title {
+  color: #000 !important;
+  font-family: "poppins";
+  font-size: 20px;
+}
+
+.accl-container-three-phase-title:hover {
+  color: blue !important;
+  cursor: pointer;
+}
+
+.accl-container-three-phase-effect:hover .accl-container-three-phase-hover {
+  top: 0;
+  transition: all 700ms ease-in-out;
+  animation: bottomToTop 700ms ease-in-out;
+}
+
+@keyframes bottomToTop {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.accl-containers-title{
+  display: flex;
+  margin: 0 18rem;
+  gap: 15rem;
+}
